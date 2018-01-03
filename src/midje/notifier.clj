@@ -1,5 +1,5 @@
 (ns midje.notifier
-  (:require [robert.hooke :refer [with-scope append]]
+  (:require [robert.hooke :refer [append]]
             [clojure.java.shell :refer [sh]]))
 
 (defn exists? [program]
